@@ -1,0 +1,5 @@
+- name: Setup nginx webserver
+  hosts: ubuntu-server
+  become: yes
+  roles:
+    - install-nginx

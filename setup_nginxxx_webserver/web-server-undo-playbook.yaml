@@ -1,0 +1,5 @@
+- name: UNDO nginx webserver
+  hosts: ubuntu-server
+  become: yes
+  roles:
+    - remove-nginx
